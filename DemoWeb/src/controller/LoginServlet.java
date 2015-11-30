@@ -29,6 +29,7 @@ public class LoginServlet extends HttpServlet {
 		String username = request.getParameter("username");   
 		String password = request.getParameter("password") ;
       
+
 		Map<String,String> errors = new HashMap<String,String>();
 		request.setAttribute("errors", errors);
         
@@ -66,7 +67,10 @@ public class LoginServlet extends HttpServlet {
 			String path = request.getContextPath();
 			response.sendRedirect(path+"/index.jsp");
 		}
-		System.out.print("dfgdgfdfdffdg");
+
+		System.out.print("aaaa");
+
+
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
