@@ -18,7 +18,7 @@ import model.ProductService;
 
 
 @WebServlet("/pages/product.controller")
-public class productServlet extends HttpServlet {
+public class DemoproductServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     ProductService productService= new ProductService();
 
