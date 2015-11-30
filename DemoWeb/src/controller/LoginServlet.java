@@ -62,7 +62,11 @@ public class LoginServlet extends HttpServlet {
 			response.sendRedirect(path+"/index.jsp");
 		}
 
-		System.out.print("bbbbb");
+
+
+		System.out.print("fffff");
+
+
 
 	}
 
