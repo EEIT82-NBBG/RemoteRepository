@@ -32,8 +32,6 @@ public class LoginServlet extends HttpServlet {
 		Map<String,String> errors = new HashMap<String,String>();
 		request.setAttribute("errors", errors);
         
-
-	
 		if(username==null||username.length()==0){
 			errors.put("id", "輸入ID以便執行");
 		}
