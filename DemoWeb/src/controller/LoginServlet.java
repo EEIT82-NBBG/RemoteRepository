@@ -66,7 +66,7 @@ public class LoginServlet extends HttpServlet {
 			String path = request.getContextPath();
 			response.sendRedirect(path+"/index.jsp");
 		}
-		System.out.print("BBBB");
+		System.out.print("dfgdgfdfdffdg");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
