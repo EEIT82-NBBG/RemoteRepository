@@ -36,10 +36,7 @@ public class LoginServlet extends HttpServlet {
 		
 		
 	
-		if(password==null||password.length()==0){
-			errors.put("pwd", "輸入密碼以便執行");
-		}
-		
+	
 		
 
 		if(errors!=null&&!errors.isEmpty()){
@@ -65,8 +62,7 @@ public class LoginServlet extends HttpServlet {
 			response.sendRedirect(path+"/index.jsp");
 		}
 
-		System.out.print("123");
-
+		System.out.print("aaaa");
 
 	}
 
