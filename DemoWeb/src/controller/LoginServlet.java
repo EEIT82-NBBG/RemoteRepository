@@ -21,7 +21,7 @@ import model.ProductBean;
  * Servlet implementation class LoginServlet
  */
 @WebServlet("/LoginServlet")
-public class DemoLoginServlet extends HttpServlet {
+public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	
