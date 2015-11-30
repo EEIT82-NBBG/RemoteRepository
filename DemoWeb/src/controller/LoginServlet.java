@@ -39,10 +39,7 @@ public class LoginServlet extends HttpServlet {
 	
 		
 	
-		if(password==null||password.length()==0){
-			errors.put("pwd", "輸入密碼以便執行");
-		}
-		
+	
 		
 
 		if(errors!=null&&!errors.isEmpty()){
@@ -69,8 +66,6 @@ public class LoginServlet extends HttpServlet {
 		}
 
 		System.out.print("aaaa");
-
-
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
